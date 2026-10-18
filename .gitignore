@@ -1,0 +1,23 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and temporary files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local tooling output
+.vercel/
+node_modules/
+npm-debug.log*
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Unrelated reference material
+/design-resources-for-developers-master/
